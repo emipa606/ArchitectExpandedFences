@@ -1,18 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-<ArchitectExpandedGates.label>[AE] Portões</ArchitectExpandedGates.label>
-
-<CloseboardGate.label>alta</CloseboardGate.label>
-
-<FarmGate.label>fazenda</FarmGate.label>
-
-<RoundGate.label>arredondado</RoundGate.label>
-
-<SquareGate.label>quadrado</SquareGate.label>
-		
-<BarGate.label>barra</BarGate.label>
-
-<TallChainlinkGate.label>arame</TallChainlinkGate.label>
-					
+  <ArchitectExpandedGates.label>[AE] Portões</ArchitectExpandedGates.label>
+  <CloseboardGate.label>alta</CloseboardGate.label>
+  <FarmGate.label>fazenda</FarmGate.label>
+  <RoundGate.label>arredondado</RoundGate.label>
+  <SquareGate.label>quadrado</SquareGate.label>
+  <BarGate.label>barra</BarGate.label>
+  <TallChainlinkGate.label>arame</TallChainlinkGate.label>
 </LanguageData>
