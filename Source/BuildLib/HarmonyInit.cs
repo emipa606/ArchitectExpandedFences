@@ -8,7 +8,6 @@ public static class HarmonyInit
 {
     static HarmonyInit()
     {
-        var harmony = new Harmony("Nif.ArchitectExpanded.Fences");
-        harmony.PatchAll();
+        new Harmony("Nif.ArchitectExpanded.Fences").PatchAll();
     }
 }

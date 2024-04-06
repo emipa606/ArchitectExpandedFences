@@ -49,7 +49,7 @@ public class Building_Gate : Building_Door
         return 0;
     }
 
-    public new static Rot4 DoorRotationAt(IntVec3 loc, Map map)
+    public static Rot4 DoorRotationAt(IntVec3 loc, Map map)
     {
         var num2 = 0;
         var num3 = AlignQualityAgainst(loc + IntVec3.East, map) + AlignQualityAgainst(loc + IntVec3.West, map);
@@ -60,7 +60,7 @@ public class Building_Gate : Building_Door
         return result;
     }
 
-    public override void Draw()
+    protected override void DrawAt(Vector3 drawLoc, bool flip = false)
     {
         Rotation = DoorRotationAt(Position, Map);
         var num = Mathf.Clamp01(ticksSinceOpen / (float)TicksToOpenNow);
@@ -83,7 +83,7 @@ public class Building_Gate : Building_Door
             var rotation = Rotation;
             rotation.Rotate(RotationDirection.Clockwise);
             vector = rotation.AsQuat * vector;
-            var vector2 = DrawPos;
+            var vector2 = drawLoc;
             vector2.y = AltitudeLayer.Shadows.AltitudeFor();
             vector2 += vector * d;
             Graphics.DrawMesh(mesh, vector2, Rotation.AsQuat, Graphic.MatAt(Rotation), 0);

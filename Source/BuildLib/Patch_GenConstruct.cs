@@ -6,7 +6,7 @@ namespace BuildLib;
 
 public static class Patch_GenConstruct
 {
-    [HarmonyPatch(typeof(GenConstruct), "CanPlaceBlueprintOver")]
+    [HarmonyPatch(typeof(GenConstruct), nameof(GenConstruct.CanPlaceBlueprintOver))]
     public static class Postfix_CanPlaceBlueprintOver
     {
         private static void Postfix(ref bool __result, BuildableDef newDef, ThingDef oldDef)

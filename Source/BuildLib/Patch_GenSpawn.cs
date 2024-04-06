@@ -6,7 +6,7 @@ namespace BuildLib;
 
 public static class Patch_GenSpawn
 {
-    [HarmonyPatch(typeof(GenSpawn), "SpawningWipes")]
+    [HarmonyPatch(typeof(GenSpawn), nameof(GenSpawn.SpawningWipes))]
     public static class Postfix_SpawningWipes
     {
         private static void Postfix(ref bool __result, BuildableDef newEntDef, ThingDef oldEntDef)
@@ -28,10 +28,7 @@ public static class Patch_GenSpawn
 
             if (thingDef.entityDefToBuild is not ThingDef
                 {
-                    building:
-                    {
-                        canPlaceOverWall: true
-                    }
+                    building.canPlaceOverWall: true
                 } || oldEntDef.entityDefToBuild is not ThingDef def)
             {
                 return;
