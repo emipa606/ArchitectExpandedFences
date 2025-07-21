@@ -6,7 +6,7 @@ namespace BuildLib;
 
 public class Building_Gate : Building_Door
 {
-    private static int AlignQualityAgainst(IntVec3 c, Map map)
+    private static int alignQualityAgainst(IntVec3 c, Map map)
     {
         if (!c.InBounds(map))
         {
@@ -52,9 +52,9 @@ public class Building_Gate : Building_Door
     public static Rot4 DoorRotationAt(IntVec3 loc, Map map)
     {
         var num2 = 0;
-        var num3 = AlignQualityAgainst(loc + IntVec3.East, map) + AlignQualityAgainst(loc + IntVec3.West, map);
-        num2 += AlignQualityAgainst(loc + IntVec3.North, map);
-        num2 += AlignQualityAgainst(loc + IntVec3.South, map);
+        var num3 = alignQualityAgainst(loc + IntVec3.East, map) + alignQualityAgainst(loc + IntVec3.West, map);
+        num2 += alignQualityAgainst(loc + IntVec3.North, map);
+        num2 += alignQualityAgainst(loc + IntVec3.South, map);
         var result = num3 >= num2 ? Rot4.North : Rot4.East;
 
         return result;

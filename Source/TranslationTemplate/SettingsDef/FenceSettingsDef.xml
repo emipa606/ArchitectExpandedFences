@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: [AE] Fences -->
+  <ArchitectExpandedFences.label>[AE] Fences</ArchitectExpandedFences.label>
+  <!-- EN: Brick (short) -->
+  <ArchitectExpandedFences.configurator.0.thingList.6.label>Brick (short)</ArchitectExpandedFences.configurator.0.thingList.6.label>
+  <!-- EN: Brick (tall) -->
+  <ArchitectExpandedFences.configurator.0.thingList.7.label>Brick (tall)</ArchitectExpandedFences.configurator.0.thingList.7.label>
+  <!-- EN: Reset fence settings:  -->
+  <ArchitectExpandedFences.design.label.0.text>Reset fence settings: </ArchitectExpandedFences.design.label.0.text>
+</LanguageData>

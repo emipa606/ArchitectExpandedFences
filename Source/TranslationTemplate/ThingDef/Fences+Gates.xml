@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Bar Fence -->
+  <Bar.label>Bar Fence</Bar.label>
+  <!-- EN: A very restrictive fence used to divide lands. -->
+  <Bar.description>A very restrictive fence used to divide lands.</Bar.description>
+  <!-- EN: Bar Gate -->
+  <BarGate.label>Bar Gate</BarGate.label>
+  <!-- EN: A very restrictive gate used to divide lands. -->
+  <BarGate.description>A very restrictive gate used to divide lands.</BarGate.description>
+  <!-- EN: Closeboard Fence -->
+  <Closeboard.label>Closeboard Fence</Closeboard.label>
+  <!-- EN: A tall sturdy fence big enough to be considered a wall. -->
+  <Closeboard.description>A tall sturdy fence big enough to be considered a wall.</Closeboard.description>
+  <!-- EN: Closeboard Gate -->
+  <CloseboardGate.label>Closeboard Gate</CloseboardGate.label>
+  <!-- EN: A tall sturdy gate as high as it's fence counterpart. -->
+  <CloseboardGate.description>A tall sturdy gate as high as it's fence counterpart.</CloseboardGate.description>
+  <!-- EN: Farm Fence -->
+  <Farm.label>Farm Fence</Farm.label>
+  <!-- EN: A farm fence capable of restraining even the wisest of Thrumbos. -->
+  <Farm.description>A farm fence capable of restraining even the wisest of Thrumbos.</Farm.description>
+  <!-- EN: Farm Gate -->
+  <FarmGate.label>Farm Gate</FarmGate.label>
+  <!-- EN: A farm gate capable of restraining even the wisest of Thrumbos. -->
+  <FarmGate.description>A farm gate capable of restraining even the wisest of Thrumbos.</FarmGate.description>
+  <!-- EN: Picket Fence -->
+  <Picket.label>Picket Fence</Picket.label>
+  <!-- EN: A decorative fence to show off your greener side of land. -->
+  <Picket.description>A decorative fence to show off your greener side of land.</Picket.description>
+  <!-- EN: Round Gate -->
+  <RoundGate.label>Round Gate</RoundGate.label>
+  <!-- EN: A small top-rounded gate. -->
+  <RoundGate.description>A small top-rounded gate.</RoundGate.description>
+  <!-- EN: Brick Fence (short) -->
+  <ShortBrick.label>Brick Fence (short)</ShortBrick.label>
+  <!-- EN: A short and sturdy fence that blends nicely beside paths or fencing for flowerbeds. -->
+  <ShortBrick.description>A short and sturdy fence that blends nicely beside paths or fencing for flowerbeds.</ShortBrick.description>
+  <!-- EN: Solid Fence -->
+  <Solid.label>Solid Fence</Solid.label>
+  <!-- EN: A fence made of rounded planks, high enough to keep rabbits at bay. -->
+  <Solid.description>A fence made of rounded planks, high enough to keep rabbits at bay.</Solid.description>
+  <!-- EN: Square Gate -->
+  <SquareGate.label>Square Gate</SquareGate.label>
+  <!-- EN: A small square gate. -->
+  <SquareGate.description>A small square gate.</SquareGate.description>
+  <!-- EN: Stone Gate -->
+  <StoneGate.label>Stone Gate</StoneGate.label>
+  <!-- EN: A fortified stone gate capable of withstanding raids. -->
+  <StoneGate.description>A fortified stone gate capable of withstanding raids.</StoneGate.description>
+  <!-- EN: Brick Fence (tall) -->
+  <TallBrick.label>Brick Fence (tall)</TallBrick.label>
+  <!-- EN: A fortified stone fence capable of withstanding raids. -->
+  <TallBrick.description>A fortified stone fence capable of withstanding raids.</TallBrick.description>
+  <!-- EN: Chainlink Fence -->
+  <TallChainLink.label>Chainlink Fence</TallChainLink.label>
+  <!-- EN: A tall steel grated fence that is easy to shoot through. -->
+  <TallChainLink.description>A tall steel grated fence that is easy to shoot through.</TallChainLink.description>
+  <!-- EN: Chainlink Gate -->
+  <TallChainlinkGate.label>Chainlink Gate</TallChainlinkGate.label>
+  <!-- EN: A tall steel grated gate that is easy to shoot through. -->
+  <TallChainlinkGate.description>A tall steel grated gate that is easy to shoot through.</TallChainlinkGate.description>
+</LanguageData>

@@ -1,3 +1,4 @@
+using System.Reflection;
 using HarmonyLib;
 using Verse;
 
@@ -8,6 +9,6 @@ public static class HarmonyInit
 {
     static HarmonyInit()
     {
-        new Harmony("Nif.ArchitectExpanded.Fences").PatchAll();
+        new Harmony("Nif.ArchitectExpanded.Fences").PatchAll(Assembly.GetExecutingAssembly());
     }
 }

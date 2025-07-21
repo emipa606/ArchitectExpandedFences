@@ -1,0 +1,81 @@
+ManifestFileVersion: 0
+CRC: 1573091271
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 969be06cc807e2f6d9c64526d2c9d332
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 969be06cc807e2f6d9c64526d2c9d332
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Square/SquareGate_south.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Round/RoundGate_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Brick/Brickfence(tall)_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Farm/Farmfence_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Farm/FarmGate_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Round/RoundGate_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Farm/Farm_Smooth.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Stone/StoneGate_east.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Farm/FarmGate_north.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Bar/BarGate_north.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Picket/Picketfence_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Solid/Solidfence_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Square/SquareGate_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Brick/Brickfence(short).png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Closeboard/CloseboardGate_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Square/SquareGate_north.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Closeboard/Closeboard_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Closeboard/CloseboardGate_south.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Solid/Solidfence.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Round/RoundGate_south.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Stone/StoneGate_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Brick/Brickfence(tall)_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Picket/Picketfence_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Bar/BarGate_south.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Brick/Brickfence(short)_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Stone/StoneGate_north.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Chainlink/ChainlinkGate_north.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Closeboard/Closeboard_Smooth.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Bar/Barfence.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Chainlink/ChainlinkGate_east.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Round/RoundGate_north.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Chainlink/ChainlinkGate_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Picket/Picket_Planks.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Picket/Picket_Smooth.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Square/SquareGate_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Bar/Barfence_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Chainlink/Chainlinkfence_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Farm/Farmfence_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Stone/StoneGate_south.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Solid/Solidfence_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Square/SquareGate_east.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Farm/FarmGate_east.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Closeboard/CloseboardGate_north.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Chainlink/Chainlinkfence_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Closeboard/Closeboard_Planks.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Farm/Farm_Planks.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Stone/StoneGate_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Closeboard/CloseboardGate_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Brick/Brickfence(short)_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Bar/BarGate_east.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Bar/Barfence_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Bar/BarGate_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Chainlink/ChainlinkGate_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Chainlink/Chainlinkfence.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Bar/BarGate_icon.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Farm/FarmGate_south.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Closeboard/CloseboardGate_east.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Brick/Brickfence(tall).png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Farm/FarmGate_blueprint.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Round/RoundGate_east.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Gates/Chainlink/ChainlinkGate_south.png
+- Assets/Data/Mlie.ArchitectExpandedFences/Textures/Things/Fences/Closeboard/Closeboard_icon.png
+Dependencies: []

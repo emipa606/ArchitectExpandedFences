@@ -2,5 +2,14 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 6779,
+  "LinesOfXML": 24926,
+  "CodeBaseSize": 71,
+  "LastXmlCleaning": "2025-07-21T20:27:02.4294305+02:00",
+  "SocialImageSet": true,
+  "SearchTags": " fences"
 }

@@ -1,4 +1,4 @@
-# ArchitectExpandedFences
+# [Architect Expanded - Fences (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2576081324)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -6,10 +6,9 @@ Update of Nifs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2050680665
 
 - Did not add the isFence attribute as it causes issues with fences that are impassable
-- There is a reworked version of this mod https://steamcommunity.com/sharedfiles/filedetails/?id=2546954423]here that uses the vanilla fence code but does not have the option of tweaking the values using the Toolbox. 
+- There is a reworked version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2546954423) that uses the vanilla fence code but does not have the option of tweaking the values using the Toolbox. 
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -25,7 +24,7 @@ I'm taking an indefinite hiatus as I'm getting more busier with life, especially
 
 An Architect Expanded mod that provides 8 types of fences that blends nicely with the vanilla aesthetic. All of which can be used as defense cover and can be easily modified with the mod settings, along with other options.
 
-Description of each modifiable property of fences or gates can be found at the "Home" tab of the ToolBox settings: Mod Settings  ToolBox  Home. Another guide can be found at the https://github.com/Nif-kun/ToolBox/wiki/User-Guide]ToolBox Wiki.
+Description of each modifiable property of fences or gates can be found at the "Home" tab of the ToolBox settings: Mod Settings  ToolBox  Home. Another guide can be found at the [ToolBox Wiki.](https://github.com/Nif-kun/ToolBox/wiki/User-Guide)
 
 
 ![Image](https://i.imgur.com/FxzMqJw.png)
@@ -47,7 +46,6 @@ Description of each modifiable property of fences or gates can be found at the "
 ![Image](https://i.imgur.com/ZR663zc.png)
 
 
-
 ![Image](https://i.imgur.com/66QlElQ.png)
 
 »Minor Update (v1.3.5.1) [08/11/20]
@@ -62,7 +60,7 @@ Description of each modifiable property of fences or gates can be found at the "
 »Minor Update (v1.3.3.0) [04/21/20]
 -Fence gate blueprints are now placable over fences, instead of removing the fences first and building the gate.
 
-Note: As much as I don't like adding mod requirements due to possible future hiccups, Harmony is required to make this update possible. I'm fairly sure many of you have it already installed so this shouldn't be too much of a problem. If you haven't, here's a link to the mod: https://steamcommunity.com/workshop/filedetails/?id=2009463077]Harmony.
+Note: As much as I don't like adding mod requirements due to possible future hiccups, Harmony is required to make this update possible. I'm fairly sure many of you have it already installed so this shouldn't be too much of a problem. If you haven't, here's a link to the mod: [Harmony](https://steamcommunity.com/workshop/filedetails/?id=2009463077).
 
 
 ![Image](https://i.imgur.com/jVuN38U.png)
@@ -94,15 +92,15 @@ A6: You'll 100% get an error and all gates will disappear. The settings will not
 
 ![Image](https://i.imgur.com/gemJ7gK.png)
 
-»https://steamcommunity.com/workshop/filedetails/?id=1884025115]Vanilla Expanded Collection - mods that stays true to Vanilla artstyle and concept.
-»https://steamcommunity.com/sharedfiles/filedetails/?id=1579516669]Dub's Paint Shop - allows you to paint on buildings.
-»https://steamcommunity.com/sharedfiles/filedetails/?id=1180719857][KV] Path Avoid - set places where colonist can and cannot walk on.
-»https://steamcommunity.com/sharedfiles/filedetails/?id=1542284250]Greenworld Lite - dirt is less dirty and more grassy.
-»https://steamcommunity.com/sharedfiles/filedetails/?id=2021234555]Gizmo Begone! - allows you to hide the button of a building (gizmo).
+»[Vanilla Expanded Collection](https://steamcommunity.com/workshop/filedetails/?id=1884025115) - mods that stays true to Vanilla artstyle and concept.
+»[Dub's Paint Shop](https://steamcommunity.com/sharedfiles/filedetails/?id=1579516669) - allows you to paint on buildings.
+»[[KV] Path Avoid](https://steamcommunity.com/sharedfiles/filedetails/?id=1180719857) - set places where colonist can and cannot walk on.
+»[Greenworld Lite](https://steamcommunity.com/sharedfiles/filedetails/?id=1542284250) - dirt is less dirty and more grassy.
+»[Gizmo Begone!](https://steamcommunity.com/sharedfiles/filedetails/?id=2021234555) - allows you to hide the button of a building (gizmo).
 
 **Patches: **
-»https://steamcommunity.com/sharedfiles/filedetails/?id=2050863037]Tab Patch - adds a "Fences" tab
-»https://steamcommunity.com/sharedfiles/filedetails/?id=2051601925]Texture Patch - replaces the texture with the old ones from Vanilla Fences.
+»[Tab Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2050863037) - adds a "Fences" tab
+»[Texture Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2051601925) - replaces the texture with the old ones from Vanilla Fences.
 
 
 ![Image](https://i.imgur.com/lqddbVx.png)
@@ -110,15 +108,15 @@ A6: You'll 100% get an error and all gates will disappear. The settings will not
 If you've uploaded a translation patch for this mod, leave down a link on the comment section. I'll gladly place a link here to your patch.
 
 **German:**
-»https://steamcommunity.com/profiles/76561198033755089/]Erdnussbrot
+»[Erdnussbrot](https://steamcommunity.com/profiles/76561198033755089/)
 **Russian (incomplete):**
-»https://steamcommunity.com/id/romwald]Romwald [BY]
+»[Romwald [BY]](https://steamcommunity.com/id/romwald)
 **Portuguese:**
-»https://steamcommunity.com/id/bambino-]Bambinoff
+»[Bambinoff](https://steamcommunity.com/id/bambino-)
 **Portuguese Brazilian:**
-»https://steamcommunity.com/id/bambino-]Bambinoff
+»[Bambinoff](https://steamcommunity.com/id/bambino-)
 **Chinese:**
-»https://steamcommunity.com/id/361120441]阿寻 = https://steamcommunity.com/sharedfiles/filedetails/?id=2050680665]workshop mod
+»[阿寻](https://steamcommunity.com/id/361120441) = [workshop mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2050680665)
 
 ![Image](https://i.imgur.com/wCH6iiv.png)
 
@@ -132,13 +130,12 @@ If you've uploaded a translation patch for this mod, leave down a link on the co
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2576081324]![Image](https://img.shields.io/github/v/release/emipa606/ArchitectExpandedFences?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/ArchitectExpandedFences?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2576081324) | tags:  fences
