@@ -7,7 +7,7 @@ namespace BuildLib;
 [HarmonyPatch(typeof(GenSpawn), nameof(GenSpawn.SpawningWipes))]
 public static class GenSpawn_SpawningWipes
 {
-    private static void Postfix(ref bool __result, BuildableDef newEntDef, ThingDef oldEntDef)
+    public static void Postfix(ref bool __result, BuildableDef newEntDef, ThingDef oldEntDef)
     {
         if (__result)
         {

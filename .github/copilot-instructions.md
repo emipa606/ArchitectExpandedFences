@@ -1,45 +1,58 @@
-# GitHub Copilot Instructions for RimWorld Modding Project
+# GitHub Copilot Instructions for Architect Expanded - Fences (Continued) Mod
 
 ## Mod Overview and Purpose
-
-This RimWorld mod aims to enhance the game's construction and defense systems by introducing new gate and fence mechanics. The mod is designed to integrate seamlessly with the existing game world, providing players with additional strategic options for colony management and fortification.
+The Architect Expanded - Fences (Continued) mod is an update to Nifs' original mod, adding eight types of fences that integrate well with the vanilla aesthetic. These fences can be used as defense cover and are easily customizable using the mod settings provided by the Toolbox. The mod also includes gates that can be modified to fit with the fences.
 
 ## Key Features and Systems
-
-- **Gates and Fence Systems**: Introduces new building types such as `Building_Gate` and `Blueprint_Gate` that allow players to construct gates as a part of their defense systems. These buildings integrate with existing fences to create a more robust and interactive perimeter.
-  
-- **Harmony Patches**: Utilizes Harmony, a dynamic library patching tool, to ensure compatibility and extend the functionality of existing game methods without altering original game files. This is primarily handled in `Patch_GenConstruct` and `Patch_GenSpawn`.
-  
-- **XML Integration**: The mod will use XML files to define new blueprint and building properties, ensuring easy modifications and extensions.
+- **Eight Types of Fences**: Each fence type can be customized with various properties such as cover percentage, fill percentage, and more.
+- **Toolbox Integration**: The mod leverages the Toolbox mod to provide extensive mod settings and customization options.
+- **Blueprint and Gate Support**: The mod supports blueprints for gates and ensures they align correctly with the fences once built.
+- **Compatibility**: The mod is compatible with save games, removable from save games, and can be used on saves that previously used Vanilla Fences, albeit with some drawbacks.
 
 ## Coding Patterns and Conventions
-
-- **Naming Conventions**: This project follows standard C# naming conventions. Classes are named using PascalCase, e.g., `Building_Gate`, while methods within these classes follow the same pattern.
-
-- **Class Design**: The core mod functionality extends from existing game classes. For example, `Building_Gate` extends `Building_Door`, demonstrating inheritance and leveraging polymorphic behavior.
-
-- **Modular Architecture**: Classes such as `Patch_GenConstruct` and `Patch_GenSpawn` are implemented as static classes focusing on specific game functionalities, promoting clean separation of concerns.
+- **C# Code Structure**: The mod follows a structured C# codebase with classes and methods organized into logical namespaces.
+- **XML Definitions**: XML files define various game elements such as fences and gates, ensuring they are correctly integrated into the game.
 
 ## XML Integration
-
-- The mod utilizes XML files for defining new structures and items. This allows easy configuration of properties such as material costs, construction time, and structural integrity. XML files can be found typically under a `Defs` directory and are essential for integrating new content without direct C# implementation.
+The mod extensively uses XML files to define game elements. Here are some key XML files and their purposes:
+- `Fence_BaseDef.xml`: Defines the base properties of fences.
+- `Fence_TypeDef.xml`: Defines specific types of fences.
+- `Fences+Gates.xml`: Contains definitions for fences and gates.
+- `FenceSettingsDef.xml`: Defines settings related to fences, integrated with the Toolbox.
+- `Gate_BaseDef.xml`: Defines the base properties of gates.
 
 ## Harmony Patching
-
-- **Harmony Usage**: The mod's harmony patches are initialized in `HarmonyInit`. This involves creating postfix methods, like `Postfix_CanPlaceBlueprintOver`, which modify or extend base game behaviors. 
-
-- **Patch Structure**: Patches are organized within their respective classes, such as `Patch_GenConstruct` or `Patch_GenSpawn`. Each patch targets specific methods in RimWorld's code to enhance mod functionality while preserving baseline game mechanics.
+The mod uses Harmony for patching vanilla game behavior. Here are some key patches:
+- **Tab Patch**: Adds a "Fences" tab in the Toolbox settings.
+- **Texture Patch**: Replaces textures with the original ones from Vanilla Fences.
 
 ## Suggestions for Copilot
+- **Code Completions**: Use Copilot to assist in writing methods and classes, especially when dealing with complex interactions between fences, gates, and the Toolbox.
+- **XML Snippets**: Utilize Copilot to generate XML snippets for new fence or gate definitions, ensuring they follow the existing patterns and conventions.
+- **Patch Implementations**: Assist in writing Harmony patches for new features or bug fixes, ensuring they integrate seamlessly with the existing mod.
 
-To maximize the efficiency of GitHub Copilot in this project, consider the following:
+## Contributing
+Contributions to the mod are welcome, especially for translations and additional fence types. Please follow the coding conventions and ensure that any new features are well-documented and tested.
 
-- **Comment Thoroughly**: Comment your code effectively, explaining logic and decision-making processes. This helps Copilot better understand the context and provide relevant suggestions.
+## Support
+For any issues or bugs, please use the Discord channel for error reporting. Always provide the log using the Log Uploader for better assistance.
 
-- **Standardizing Code Patterns**: Maintain consistent coding patterns across your C# and XML files. This includes following the aforementioned naming and structural conventions to allow Copilot to leverage pattern recognition more effectively.
+---
 
-- **Incremental Development**: Introduce new features and patches incrementally. As new functionality is added, this allows Copilot to adjust its suggestions based on newly introduced code segments, aiding smoother development processes.
+This .github/copilot-instructions.md file provides a comprehensive guide for developers working on the Architect Expanded - Fences (Continued) mod, detailing the mod's purpose, key features, coding conventions, XML integration, and suggestions for using Copilot.
 
-- **Utilize Copilot for Refactoring**: When working on enhancing or refactoring code, use Copilot to suggest optimizations or alternative approaches that align with C# best practices and Harmony usage. 
+## Project Solution Guidelines
+- Relevant mod XML files are included as Solution Items under the solution folder named XML, these can be read and modified from within the solution.
+- Use these in-solution XML files as the primary files for reference and modification.
+- The `.github/copilot-instructions.md` file is included in the solution under the `.github` solution folder, so it should be read/modified from within the solution instead of using paths outside the solution. Update this file once only, as it and the parent-path solution reference point to the same file in this workspace.
+- When making functional changes in this mod, ensure the documented features stay in sync with implementation; use the in-solution `.github` copy as the primary file.
+- In the solution is also a project called Assembly-CSharp, containing a read-only version of the decompiled game source, for reference and debugging purposes.
+- For any new documentation, update this copilot-instructions.md file rather than creating separate documentation files.
 
-By adhering to these guidelines, GitHub Copilot can significantly aid in the development and maintenance of your RimWorld mod, providing suggestions that respect the game's architectural design and functionality.
+
+## Hard rules (must follow)
+- Do NOT run commands that modify the repo (no git commit, git apply, dotnet format) unless explicitly asked.
+- Prefer minimal reads: read only the smallest code region needed (around the suspicious lines).
+- When mentioning SonarQube issues, automatically use the SonarQube MCP service to fetch and address issues instead of making inferred fixes without querying SonarQube first.
+- When mentioning the rimworld log, automatically use the Rimworld MCP service to fetch the log.
+

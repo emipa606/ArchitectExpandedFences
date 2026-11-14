@@ -7,7 +7,7 @@ namespace BuildLib;
 [HarmonyPatch(typeof(GenConstruct), nameof(GenConstruct.CanPlaceBlueprintOver))]
 public static class GenConstruct_CanPlaceBlueprintOver
 {
-    private static void Postfix(ref bool __result, BuildableDef newDef, ThingDef oldDef)
+    public static void Postfix(ref bool __result, BuildableDef newDef, ThingDef oldDef)
     {
         if (__result)
         {
